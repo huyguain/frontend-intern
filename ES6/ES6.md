@@ -17,6 +17,14 @@
     	"test": "echo \"Error: no test specified\" && exit 1"
   	},
     ```
+- Trong thư mục chứa file "node_module", tạo file ".babelrc", copy đoạn sau:
+	``` javascript
+    {
+		"presets": [
+			"env"
+		]
+	}
+    ```
 - Để chạy một file bất kì. Trong thư mục chứa node_module, chạy lệnh:
 	``` javascript
     $ npm run babel-node "đường dẫn file cần chạy"
