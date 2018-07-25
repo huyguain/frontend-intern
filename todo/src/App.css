@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    min-width: 230px;
+    max-width: 550px;
+    margin: 0px auto;
+    background-color: #f5f5f5;
+}
+
+header h1 {
+    text-align: center;
+    font-weight: 100;
+    font-size: 100px;
+    color: rgba(175, 47, 47, 0.15);
+}
+
+header .add-todo-input {
+    display: flex;
+    border-bottom: 1px solid #ededed;
+    background: #fff;
+}
+
+header .add-todo-input input[type="checkbox"] {
+    width: 35px;
+    height: 60px;
+}
+
+header .add-todo-input input[type="text"] {
+    /* flex-grow: 10; */
+    /* flex-grow: 1; */
+    width: 100%;
+    padding: 16px 16px 16px 60px;
+    border: none;
+    font-size: 24px;
+    font-weight: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+
+section {
+    background: #fff;
+}
+
+section section ul {
+    list-style: none;
+}
+
+section section ul li {
+    display: flex;
+    border-bottom: 1px solid #ededed;
+}
+
+section section ul li input {
+    width: 35px;
+    height: 60px;
+}
+
+section section ul li label {
+    display: block;
+    width: 100%;
+    padding: 15px 60px 15px 15px;
+    line-height: 30px;
+}
+
+section section ul li button {
+    width: 60px;
+    /* display: none; */
+    border: none;
+    background-color: white;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* section section ul li:hover button {
+    display: inline;
+} */
+
+section footer {
+    display: flex;
+    color: #777;
+    padding: 10px 15px;
+    height: 20px;
+    text-align: center;
+    border-top: 1px solid #e6e6e6;
+}
+
+section footer .total-item {
+    flex-grow: 3;
+    text-align: left;
+}
+
+section footer ul {
+    display: flex;
+    flex-grow: 7;
+    list-style: none;
+}
+
+section footer ul li a {
+    text-decoration: none;
+    color: #777;
+    padding: 3px 10px;
+    border: 1px solid transparent;
+    /* border-color: rgba(175, 47, 47, 0.2); */
+    border-radius: 3px;
+}
+
+section footer ul li a.selected {
+    border-color: rgba(175, 47, 47, 0.2);
+}
+
+.footer-info {
+    margin: 65px auto 0;
+    text-align: center;
+    color: #bfbfbf;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
